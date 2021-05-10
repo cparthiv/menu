@@ -36,7 +36,9 @@
     "url-join": "^2.0.5"
   },
   "scripts": {
-    "dev": "http-server -o"
+    "dev": "http-server -o",
+    "format": "prettier . --write",
+    "lint": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -50,6 +52,7 @@
   },
   "homepage": "https://github.com/shapedgod/menu#readme",
   "devDependencies": {
+    "eslint": "^7.26.0",
     "prettier": "^2.3.0"
   }
 }
