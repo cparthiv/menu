@@ -2,7 +2,7 @@ angular.module("demoApp.controller", []).controller("BaseCtrl", [
   "$scope",
   function ($scope) {
     $scope.menu = [
-		// placeholders
+      // placeholders
       {
         title: "Appetizers",
         dishes: [

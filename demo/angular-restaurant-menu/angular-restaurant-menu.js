@@ -1,3 +1,5 @@
+// eslint-disable-next-line
+// eslint-disable no-undef
 angular.module("restaurant-menu", []).directive("restaurantmenu", function () {
   return {
     restrict: "E",
