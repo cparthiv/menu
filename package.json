@@ -48,5 +48,8 @@
   "bugs": {
     "url": "https://github.com/shapedgod/menu/issues"
   },
-  "homepage": "https://github.com/shapedgod/menu#readme"
+  "homepage": "https://github.com/shapedgod/menu#readme",
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  }
 }
