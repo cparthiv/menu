@@ -162,14 +162,13 @@ angular.module("demoApp.controller", []).controller("BaseCtrl", [
       "Would you like us to cater your event? Email us: catering@restaurant.com";
     $scope.limitamount = 5;
     $scope.menucover = {
-      title: "Gourmet Castle",
+      title: "La Cena",
       description: "Fine Dining &amp; Gourmet Takeaway",
       streetaddress: "246 Wonderful Paradise Ln.",
-      city: "Pasadena",
-      state: "CA",
-      zip: "91101",
-      phone: "626.511.1170",
-      fax: "626.992.1020",
+      city: "Westview",
+      state: "NJ",
+      zip: "96542",
+      phone: "613.231.3212",
     };
     $scope.menuheight = 600;
   },
