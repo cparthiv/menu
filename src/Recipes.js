@@ -3,7 +3,7 @@ angular.module("App.controller", []).controller("BaseCtrl", [
   function ($scope) {
     $scope.menu = [
       {
-        title: "Appetizers"
+        title: ""
       }
     ]
     $scope.cateringmessage =
@@ -23,7 +23,7 @@ angular.module("App.controller", []).controller("BaseCtrl", [
 ]);
 
 
-// Example Recipes 
+// Example Config
 ///////////////////////////////////////////////
 /*
 function ($scope) {
