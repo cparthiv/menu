@@ -1,1 +1,1 @@
-angular.module("demoApp", ["demoApp.controller", "restaurant-menu"]);
+angular.module("App", ["App.controller", "restaurant-menu"]);

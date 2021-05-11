@@ -1,4 +1,4 @@
-angular.module("demoApp.controller", []).controller("BaseCtrl", [
+angular.module("App.controller", []).controller("BaseCtrl", [
   "$scope",
   function ($scope) {
     $scope.menu = [
