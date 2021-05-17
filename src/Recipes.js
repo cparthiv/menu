@@ -3,15 +3,22 @@ angular.module("App.controller", []).controller("BaseCtrl", [
   function ($scope) {
     $scope.menu = [
       {
-        title: ""
+        title: "Appetizos", 
+        dishes: [
+          {
+            name: "Mariquitas",
+            description: "Plantain chips made every morning.",
+            img: ""
+          }
+        ]
       }
     ]
     $scope.cateringmessage =
       "Would you like us to cater your event? Email us: catering@restaurant.com";
     $scope.limitamount = 5;
     $scope.menucover = {
-      title: "La Cena",
-      description: "The best Mexican restaurant in town.",
+      title: "Le Restaurante Grande",
+      description: "The best Mexican and Cuban restaurant in town.",
       streetaddress: "420 Paradise Street.",
       city: "Westview",
       state: "NJ",
