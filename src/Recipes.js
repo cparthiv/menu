@@ -1,3 +1,5 @@
+const { ESLint } = require("eslint");
+
 angular.module("App.controller", []).controller("BaseCtrl", [
   "$scope",
   function ($scope) {
@@ -7,8 +9,54 @@ angular.module("App.controller", []).controller("BaseCtrl", [
         dishes: [
           {
             name: "Mariquitas",
-            description: "Plantain chips made every morning.",
-            img: ""
+            description: "Plantain chips made every morning",
+            img: "https://www.preciouscore.com/wp-content/uploads/2018/03/Homemade-Plantain-Chips.jpg",
+            link: "https://www.seriouseats.com/fried-plantain-chips",
+            price: 4
+          },
+          {
+            name: 'Tamal en Hoja',
+            description: 'Freshly made tamales served in corn skin',
+            img: "https://hips.hearstapps.com/ellees.h-cdn.co/assets/16/35/1280x907/gallery-original-1456925520-hero1.jpg",
+            link: "https://www.elle.com/es/living/buscador-recetas/a792980/tamales-en-hoja-de-platano/",
+            price: 4
+          },
+          {
+            name: 'Papas Fritas',
+            description: 'Bowl of french fries served with ketchup',
+            img: 'http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTdadRX-us6yVNHFyxKZNExFS7sa_3LUMFcrm3yCGbT67XH_TiqEYr8og7Ny9sk-EqykOojYJZkopF5LNW-viI',
+            link: "https://www.dinneratthezoo.com/homemade-french-fries/",
+            price: 6
+          },
+          {
+            name: 'Croquetas de Jamon',
+            description: 'Ham croquettes, bite size ham covered in bread crumbs',
+            img: 'https://asassyspoon.com/wp-content/uploads/ham-croquettes-croquetas-de-jamon1.jpg',
+            link: 'https://asassyspoon.com/ham-croquettes/',
+            price: 8
+          },
+          {
+            name: 'Empanadas',
+            description: 'Two fried or baked turnovers made of pastry and filling',
+            img: "https://therecipecritic.com/wp-content/uploads/2020/04/easy-empanada.jpg",
+            link: 'https://therecipecritic.com/empanadas/',
+            price: 5
+          }
+        ]
+      },
+      {
+        title: "Hamburguesas",
+        dishes: [
+          {
+            name: 'Frita Cubana',
+            description: 'Cuban burger with a pork patty and potatoes.',
+            img: 'https://www.panningtheglobe.com/wp-content/uploads/2020/06/frita-burger-3.jpg',
+            link: 'https://www.panningtheglobe.com/the-cuban-frita-burger-frita-cubana/',
+            price: 8
+          },
+          {
+            name: 'Hamburguesa con Queso',
+            description: "Juicy cheeseburger with spicy BBQ sauce."
           }
         ]
       }
