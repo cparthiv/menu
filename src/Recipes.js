@@ -56,10 +56,28 @@ angular.module("App.controller", []).controller("BaseCtrl", [
           },
           {
             name: 'Hamburguesa con Queso',
-            description: "Juicy cheeseburger with spicy BBQ sauce."
+            description: "Juicy cheeseburger with spicy BBQ sauce.",
+            img: 'https://cocina-casera.com/wp-content/uploads/2016/11/hamburguesa-queso-receta.jpg',
+            link: 'https://cocina-casera.com/hamburguesa-con-queso/',
+            price: 6
+          },
+          {
+            name: 'El Grande',
+            description: 'Triple the size of the cheeseburger. Warning: not for weak stomachs',
+            img: 'https://cocina-casera.com/wp-content/uploads/2016/11/hamburguesa-queso-receta.jpg',
+            link: 'https://cocina-casera.com/hamburguesa-con-queso/',
+            price: 13
           }
         ]
-      }
+      } /*,
+      {
+        title: 'Bocadillos',
+        dishes: [
+          {
+            name: ''
+          }
+        ]
+      } */
     ]
     $scope.cateringmessage =
       "Would you like us to cater your event? Email us: catering@restaurant.com";
