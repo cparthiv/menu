@@ -1,5 +1,3 @@
-const { ESLint } = require("eslint");
-
 angular.module("App.controller", []).controller("BaseCtrl", [
   "$scope",
   function ($scope) {
