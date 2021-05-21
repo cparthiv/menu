@@ -142,7 +142,7 @@ angular.module("App.controller", []).controller("BaseCtrl", [
         ]
       },
       {
-        name: 'Bebidas',
+        name: 'Bebidas y Postre',
         dishes: [
           {
             name: 'Coco-cola',
@@ -164,6 +164,20 @@ angular.module("App.controller", []).controller("BaseCtrl", [
             price: 6,
             link: 'https://en.wikipedia.org/wiki/Beer',
             img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Paulaner_Oktoberfest_Marzen_11.2oz_bottle_and_beer_mug.jpg/330px-Paulaner_Oktoberfest_Marzen_11.2oz_bottle_and_beer_mug.jpg'
+          },
+          {
+            name: 'Dulce de leche',
+            description: 'A dessert prepared by heating condensed milk, similar to caramel.',
+            link: 'https://preppykitchen.com/dulce-de-leche/',
+            img: 'https://preppykitchen.com/wp-content/uploads/2020/04/dulce-de-leche-feature.jpg',
+            price: 4
+          },
+          {
+            name: 'Churros',
+            description: 'Plate of churros, a dessert covered in sugar and served with warm chocolate sauce.',
+            link: 'https://www.cookingclassy.com/churros/',
+            img: 'https://www.cookingclassy.com/wp-content/uploads/2018/08/churros-55-768x1223.jpg',
+            price: 8
           }
         ]
       }
