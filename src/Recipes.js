@@ -43,7 +43,7 @@ angular.module("App.controller", []).controller("BaseCtrl", [
         ]
       },
       {
-        title: "Hamburguesas",
+        title: "Platos fuertes, bocadillos, hamburguesas",
         dishes: [
           {
             name: 'Frita Cubana',
@@ -65,12 +65,7 @@ angular.module("App.controller", []).controller("BaseCtrl", [
             img: 'https://cocina-casera.com/wp-content/uploads/2016/11/hamburguesa-queso-receta.jpg',
             link: 'https://cocina-casera.com/hamburguesa-con-queso/',
             price: 13
-          }
-        ]
-      },
-      {
-        title: "Bocadillos",
-        dishes: [
+          },
           {
             name: "Pan cubano",
             description: 'Traditional bread loaf, why not take one home?',
@@ -105,12 +100,7 @@ angular.module("App.controller", []).controller("BaseCtrl", [
             description: 'Cuban steak sandwich dressed with spices',
             img: 'https://www.cook2eatwell.com/wp-content/uploads/2018/07/Pan-con-Bistec-Image-2-1024x683.jpg',
             link: 'https://www.cook2eatwell.com/pan-con-bistec/'
-          }
-        ]
-      },
-      {
-        title: 'Platos fuertes',
-        dishes: [
+          },
           {
             name: 'Fricase de pollo',
             description: 'Cuban fried chicken in a thick white sauce',
