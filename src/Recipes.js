@@ -43,7 +43,7 @@ angular.module("App.controller", []).controller("BaseCtrl", [
         ]
       },
       {
-        title: "Platos fuertes, bocadillos, hamburguesas",
+        title: "Entrantes",
         dishes: [
           {
             name: 'Frita Cubana',
