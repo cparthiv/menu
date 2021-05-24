@@ -168,7 +168,14 @@ angular.module("App.controller", []).controller("BaseCtrl", [
             link: 'https://www.cookingclassy.com/churros/',
             img: 'https://www.cookingclassy.com/wp-content/uploads/2018/08/churros-55-768x1223.jpg',
             price: 8
-          }
+          },
+        {
+          name: 'Pastel',
+          description: 'Vanilla cake',
+          link: 'https://sallysbakingaddiction.com/vanilla-cake/',
+          img: 'https://cdn.sallysbakingaddiction.com/wp-content/uploads/2019/01/vanilla-cake.jpg',
+          price: 6
+        }
         ]
       }
     ]
